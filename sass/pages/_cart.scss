@@ -1,0 +1,31 @@
+.cart {
+  &__card {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+  }
+
+  &__img {
+    width: 450px;
+    height: 450px;
+    background-color: gray;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__button {
+    width: 200px;
+    padding: 15px;
+    background-color: rgb(99, 186, 220);
+    color: #fff;
+  }
+}
